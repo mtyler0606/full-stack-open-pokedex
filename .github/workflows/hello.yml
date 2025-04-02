@@ -7,8 +7,9 @@ on:
 
 jobs:
     hello_world_job:
+        name: Hello World Job
         runs-on: ubuntu-20.04
         steps:
-          - name: Say hello
-          run: | 
-            echo "Hello World!"'
+            - name: Say hello
+            run: | 
+                echo Hello World!
